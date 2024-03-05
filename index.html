@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>    
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">    
+                <img class="logo" src="./assets/images/logo.svg">
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="./assets/images/exclamacion.svg" alt="advertencia" />
+                        Solo letras minúsculas y sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="button__encriptar" class="button__encriptar">Encriptar</button>
+                        <button id="button__desencriptar" class="button__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="right">
+                <img id="munheco" class="muneco" src="./assets/images/muneco.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button__copiar bn_ocultar" id="button__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p class="creador">Created by 
+            <a href="https://www.linkedin.com/in/soliverosc/" target="_blank" class="usuario">
+                @soliverosc
+            </a>
+        </p>
+        <div>
+            <a href="https://github.com/rydelf" target="_blank">
+                <img class="links" src="./assets/images/github.svg" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/soliverosc/" target="_blank">
+                <img class="links" src="./assets/images/linkedin.svg" />
+            </a>
+        </div>
+    </footer>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
