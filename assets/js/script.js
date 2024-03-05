@@ -87,7 +87,7 @@ copy.addEventListener("click", () => {
 	alert("Texto Copiado");
 	reset();
 });
-//auto ajuste de textarea
+
 textoInicial.addEventListener("change", e => {
 	textoInicial.style.height = "auto";
 	let scHeight = e.target.scrollHeight;

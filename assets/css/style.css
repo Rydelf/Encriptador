@@ -82,7 +82,7 @@ button{
 
 .container {
 	margin: auto 40px auto auto;
-	width: 90%;	
+	width: 90%;
 	align-items: end;
 	min-height: calc(100vh - 80px - 56px);
 	display: grid;
@@ -151,6 +151,7 @@ textarea::placeholder {
 	background: var(--color-blue);
 	color: white;
 }
+
 .button__desencriptar {
 	background: var(--color-lightBlue2);
 	color: var(--color-blue);
